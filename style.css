@@ -128,9 +128,72 @@ section {
                 color: #1f2937;
                 opacity: 0.8;
             }
-
         }
-
-
     }
+}
+
+
+.quote{
+    width:100%;
+    height: 400px;
+    background-color: #e5e7eb;
+
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+
+    padding: 0px 200px;
+
+    & .name{
+        text-align: right;
+    }
+}
+
+.call{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & .call-square{
+        background-color: #3882f6;
+        color: #f9faf8;
+
+        height: 150px;
+        width: 1000px;
+        border-radius: 8px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 30px;
+
+        & button{
+            background-color: #3882f6;
+            padding: 5px 20px;
+            margin-top: 8px;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            color: #f9faf8;
+            font-size: larger;
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
